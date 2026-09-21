@@ -51,7 +51,7 @@ class TDDTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"Otto", "mom", "Lol", "rotator", "Fehler"})
+    @ValueSource(strings = {"Otto", "mom", "Lol", "rotator"})
     void isPolydrome_expectTrue_whenGivenPolydrome(String string) {
         assertTrue(TDD.isPalidrome(string));
     }
