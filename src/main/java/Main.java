@@ -1,6 +1,9 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         getFirstLetter("");
+        System.out.println("This project does only tests");
     }
 
     public static boolean isPositive(int number) {
